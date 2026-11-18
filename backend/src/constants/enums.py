@@ -1,3 +1,5 @@
 ROLES=('admin','operator','viewer')
 STATUSES=('queued','running','passed','failed')
 OPERATIONS=('put','delete')
+SELECTION_STATUSES=('queued','running','proven_optimal','no_solution','insufficient_evidence')
+SELECTION_OUTCOMES=('proven_optimal','no_solution','insufficient_evidence')
